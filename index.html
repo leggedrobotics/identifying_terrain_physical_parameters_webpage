@@ -60,8 +60,13 @@
                 <span class="author-block">
                   <a href="https://www.linkedin.com/in/jonas-frey-3a3702175/" target="_blank">Jonas Frey</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="https://scholar.google.com.hk/citations?user=S5U9JpkAAAAJ&hl" target="_blank">Ruyi Zhou</a>,</span>
+                    <span class="author-block">
+                      <a href="https://www.linkedin.com/in/takahiro-miki-a6a065218/" target="_blank">Takahiro Miki</a>,</span>
+                      <span class="author-block">
+                        <a href="https://scholar.google.de/citations?user=b-JF-UIAAAAJ&hl" target="_blank">Georg Martius</a>,</span>
+                        <span class="author-block">
+                          <a href="https://www.linkedin.com/in/marco-hutter/" target="_blank">Marco Hutter</a></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
@@ -147,7 +152,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Identifying the physical properties of the surrounding environment is essential for robotic locomotion and navigation to deal with non-geometric hazards, such as slippery and deformable terrains.
+It would be of great benefit for robots to anticipate these extreme physical properties before contact; however, estimating environmental physical parameters from vision is still an open challenge. 
+Animals can achieve this by using their prior experience and knowledge of what they have seen and how it felt. 
+In this work, we propose a cross-modal self-supervised learning framework for vision-based environmental physical parameter estimation, which paves the way for future physical properties-aware locomotion and navigation. We bridge the gap between existing policies trained in simulation and identification of physical terrain parameters from vision. We propose to train a physical decoder in simulation to predict friction and stiffness from multi-modal input. The trained network allows the labeling of real-world images with physical parameters in a self-supervised manner to further train a visual network during deployment, which can densely predict the friction and stiffness from image data. We validate our physical decoder in simulation and the real world using a quadruped ANYmal robot, outperforming an existing baseline method. We show that our visual network can predict the physical properties in indoor and outdoor experiments while allowing fast adaptation to new environments. 
           </p>
         </div>
       </div>
