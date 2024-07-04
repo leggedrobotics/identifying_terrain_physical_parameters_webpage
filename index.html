@@ -88,7 +88,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -96,10 +96,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -107,7 +107,7 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
@@ -165,62 +165,73 @@ In this work, we propose a cross-modal self-supervised learning framework for vi
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
+<section class="hero">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/fig1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Overview of the two-stage self-supervised terrain physical parameter learning framework.
-        </h2>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3">Off-road evaluation</h1>
+          <div class="item">
+            <img src="static/images/fric_hiking.png" alt="Off-road evaluation of dense friction prediction in a hiking scenario."/>
+            <h2 class="subtitle has-text-centered">
+              Dense friction prediction in a hiking scenario.
+            </h2>
+          </div>
+          <hr>
+          <div class="item">
+            <img src="static/images/stiff_snow3.png" alt="Off-road evaluation of dense stiffness prediction in a snowy scenario (outdoor)."/>
+            <h2 class="subtitle has-text-centered">
+              Dense stiffness prediction in a snowy scenario (outdoor).
+            </h2>
+          </div>
+          <hr>
+          <div class="item">
+            <img src="static/images/stiff_snow4.png" alt="Off-road evaluation of dense stiffness prediction in a snowy scenario (indoor)."/>
+            <h2 class="subtitle has-text-centered">
+              Dense stiffness prediction in a snowy scenario (indoor).
+            </h2>
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/fig8.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Physical decoder friction estimation. Only left-front (LF) and left-
-rear (LH) feet are shown in the plot. The Baseline is the decoder in [3].
-The robot walks backwards.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/fig9.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Physical decoder stiffness estimation. Left-front (LF) and left-rear
-          (LH) feet are shown in the plot.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/fric_hiking.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Off-road evaluation of dense friction prediction in a hiking scenario.
-      </h2>
-    </div>
-    <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/stiff_snow3.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Off-road evaluation of dense stiffness prediction in a snowy scenario (outdoor).
-      </h2>
-    </div>
-    <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/stiff_snow4.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Off-road evaluation of dense stiffness prediction in a snowy scenario (indoor).
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+
+
+
+
+<!-- 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3">Real-world evaluation (lab)</h1>
+          <div class="columns">
+            <div class="column is-half">
+              <div class="item">
+                <img src="static/images/fig8.png" alt="Physical decoder friction estimation. Only left-front (LF) and left-rear (LH) feet are shown in the plot. The Baseline is the decoder in [3]. The robot walks backwards."/>
+                <h2 class="subtitle has-text-centered">
+                  Physical decoder friction estimation. Only left-front (LF) and left-rear (LH) feet are shown in the plot. The Baseline is the decoder in [3]. The robot walks backwards.
+                </h2>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="item">
+                <img src="static/images/fig9.png" alt="Physical decoder stiffness estimation. Left-front (LF) and left-rear (LH) feet are shown in the plot."/>
+                <h2 class="subtitle has-text-centered">
+                  Physical decoder stiffness estimation. Left-front (LF) and left-rear (LH) feet are shown in the plot.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
 
 
 <!--BibTex citation -->
